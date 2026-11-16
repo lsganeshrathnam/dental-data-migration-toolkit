@@ -1,0 +1,7 @@
+patient_id,first_name,last_name,phone,email,date_of_birth
+P001, John ,Smith,4805551234,john.smith@example.com,1988-04-12
+P002,SARAH,Jones,(480) 555-2222,sarah.jones@example.com,1992-09-03
+P003,David,Brown,,david.brown@example.com,1975-12-21
+P004,Emily, Davis,480-555-4444,emily.davis@example.com,1990-02-30
+P002,Sarah,Jones,4805552222,sarah.jones@example.com,1992-09-03
+P005,Michael,Wilson,480.555.5555,not-an-email,1984-06-18

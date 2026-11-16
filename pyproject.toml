@@ -1,0 +1,25 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dental-data-migration-toolkit"
+version = "0.1.0"
+description = "A Python toolkit for cleaning, validating, and migrating dental practice data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2,<4.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0,<10.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

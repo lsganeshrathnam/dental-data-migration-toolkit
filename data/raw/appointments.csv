@@ -1,0 +1,6 @@
+appointment_id,patient_id,appointment_date,status,provider
+A001,P001,2026-11-20,scheduled,Dr. Lee
+A002,P002,2026-11-21,completed,Dr. Patel
+A003,P999,not-a-date,scheduled,Dr. Lee
+A004,P003,2026-11-22,cancelled,Dr. Kim
+A005,P001,2026-11-20,scheduled,Dr. Lee
